@@ -1,0 +1,19 @@
+Package: GenEpi
+Date: 2018-03-05
+Type: Package
+Title: Helper Functions for Genetic Epidemiology in 'OpenMx'
+Authors@R: c(person(c("Michael", "D."), "Hunter", email="mhunter.ou@gmail.com", role=c("aut", "cre")),
+    person(c("Hermine", "H."), "Maes", email="hermine.maes@vcuhealth.org", role='aut'))
+Author: Michael D. Hunter [aut, cre],
+    Hermine H. Maes [aut]
+Maintainer: Michael D. Hunter <mhunter.ou@gmail.com>
+Imports: methods
+Description: Utilities for building certain kinds of common matrices and models 
+    common to genetic epidemiology in the extended structural equation modeling package, 'OpenMx'.
+Depends: R (>= 3.0.0), OpenMx
+Suggests: rpf (>= 0.45)
+License: GPL
+Version: 0.1-1
+NeedsCompilation: no
+URL: https://github.com/mhunter1/GenEpi
+BugReports: https://github.com/mhunter1/GenEpi/issues
